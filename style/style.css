@@ -18,7 +18,7 @@ body {
 	background-position: top center;
 	background-attachment: fixed;
 	font-family: 'Jockey One', sans-serif;
-	color: #fff;
+	color: black;
 }
 
 a {
@@ -156,7 +156,8 @@ li {
 }
 
 .target {
-	min-height: 500px;
+	min-height: 50px;
+	max-height: 100px
 	position: relative;
 	margin: 30px 50px 30px;
 	width: 900px;
@@ -166,18 +167,14 @@ li {
 
 .targetL {
 	-webkit-box-flex: 2;
-	min-height: 500px;
+	min-height: 50px;
 	background-color: yellow;
 }
 
 .targetR {
 	-webkit-box-flex: 8;
-	min-height: 500px;
+	min-height: 50px;
 	background-color: orange;
-}
-
-.target font{
-	color: #5B5B5B;
 }
 
 .foot {
@@ -231,30 +228,67 @@ li {
 .welcome {
 	/*font-size: 28px;*/
 	width: 900px;
-	height: 500px;
 	text-align: center;
 }
 
 .project {
 	width: 900px;
-	height: 500px;
 	text-align: left;
+}
+
+.projectTitle {
+	color: #5B5B5B;
+	font-size: 36px;
+}
+
+.projectDes {
+	font-size: 18px;
+	color: black;
+}
+
+/*.projectItem {
+	border: 3px solid #00FF00;
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+	border-radius: 10px;
+}*/
+
+.project ul li {
+	border: 3px solid black;
+	margin: 10px 10px 10px 0;
+    background-size: 100% 100%;
+    text-align: left;
+    line-height: 50px; 
+    border-radius:20px;
+}
+
+.project ul li a {
+	padding: 10px;
+    height: 55px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+}
+
+.project ul li a:hover {
+    background: rgb(175, 128, 80);
+    color: #fff;
+    text-shadow:2px 2px 10px #f00;
+    -webkit-transition:background 0.8s ease-out, color 0.4s ease-out, text-shadow 0.3s linear;
 }
 
 .learnning {
 	width: 900px;
-	height: 500px;
 	text-align: left;
 }
 
 .blog {
 	width: 900px;
-	height: 500px;
 	text-align: left;
 }
 
 .about {
 	width: 900px;
-	height: 500px;
 	text-align: left;
 }
