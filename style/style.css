@@ -46,7 +46,7 @@ li {
 #nav {
 	zoom: 1;
 	margin: 30px 30px 30px 200px;
-	width: 600px;
+	width: 700px;
 }
 #nav > li{
 	float: left;
@@ -156,7 +156,7 @@ li {
 }
 
 .target {
-	min-height: 50px;
+	min-height: 500px;
 	max-height: 100px
 	position: relative;
 	margin: 30px 50px 30px;
@@ -167,13 +167,13 @@ li {
 
 .targetL {
 	-webkit-box-flex: 2;
-	min-height: 50px;
+	min-height: 500px;
 	background-color: yellow;
 }
 
 .targetR {
 	-webkit-box-flex: 8;
-	min-height: 50px;
+	min-height: 500px;
 	background-color: orange;
 }
 
@@ -283,9 +283,109 @@ li {
 	text-align: left;
 }
 
+.learnningTitle {
+	color: #5B5B5B;
+	font-size: 36px;
+}
+
+.learnning ul li {
+	border: 3px solid black;
+	margin: 10px 10px 10px 0;
+    background-size: 100% 100%;
+    text-align: left;
+    line-height: 50px; 
+    border-radius:20px;
+}
+
+.learnning ul li a {
+	padding: 10px;
+    height: 55px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+}
+
+.learnning ul li a:hover {
+    background: rgb(175, 128, 80);
+    color: #fff;
+    text-shadow:2px 2px 10px #f00;
+    -webkit-transition:background 0.8s ease-out, color 0.4s ease-out, text-shadow 0.3s linear;
+}
+
 .blog {
 	width: 900px;
 	text-align: left;
+}
+
+.blogTitle {
+	color: #5B5B5B;
+	font-size: 36px;
+}
+
+.blogDes {
+	font-size: 18px;
+	color: black;
+}
+
+.blog ul li {
+	border: 3px solid black;
+	margin: 10px 10px 10px 0;
+    background-size: 100% 100%;
+    text-align: left;
+    line-height: 50px; 
+    border-radius:20px;
+}
+
+.blog ul li a {
+	padding: 10px;
+    height: 55px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+}
+
+.blog ul li a:hover {
+    background: rgb(175, 128, 80);
+    color: #fff;
+    text-shadow:2px 2px 10px #f00;
+    -webkit-transition:background 0.8s ease-out, color 0.4s ease-out, text-shadow 0.3s linear;
+}
+
+.share {
+	width: 900px;
+	text-align: left;
+}
+
+.shareTitle {
+	color: #5B5B5B;
+	font-size: 36px;
+}
+
+.share ul li {
+	border: 3px solid black;
+	margin: 10px 10px 10px 0;
+    background-size: 100% 100%;
+    text-align: left;
+    line-height: 50px; 
+    border-radius:20px;
+}
+
+.share ul li a {
+	padding: 10px;
+    height: 55px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+}
+
+.share ul li a:hover {
+    background: rgb(175, 128, 80);
+    color: #fff;
+    text-shadow:2px 2px 10px #f00;
+    -webkit-transition:background 0.8s ease-out, color 0.4s ease-out, text-shadow 0.3s linear;
 }
 
 .about {
