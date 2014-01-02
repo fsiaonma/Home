@@ -145,7 +145,7 @@ li {
 	padding: 15px 30px;
 }
 
-.titleImg {
+.title-img {
 	position: relative;
 	margin: 100px 0 0;
 	background: url("../images/title.jpg");
@@ -163,18 +163,6 @@ li {
 	width: 900px;
 	display: -webkit-box;
   	-webkit-box-orient: horizontal;
-}
-
-.targetL {
-	-webkit-box-flex: 2;
-	min-height: 500px;
-	background-color: yellow;
-}
-
-.targetR {
-	-webkit-box-flex: 8;
-	min-height: 500px;
-	background-color: orange;
 }
 
 .foot {
@@ -204,7 +192,8 @@ li {
 }
 
 .site-footer-links.right{
-	float:right
+	float: right;
+	margin-right: 10px;
 }
 
 .site-footer-links li{
@@ -236,39 +225,59 @@ li {
 	text-align: left;
 }
 
-.projectTitle {
+.project-title {
 	color: #5B5B5B;
 	font-size: 36px;
 }
 
-.projectDes {
+.project-des {
 	font-size: 18px;
 	color: black;
 }
 
-/*.projectItem {
-	border: 3px solid #00FF00;
-	margin: 10px 10px 10px 0;
-	padding: 10px;
-	border-radius: 10px;
-}*/
+.project-box {
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: box; 
+}
+
+.project-box-left {
+	width: 150px;
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+}
+
+.project-box-right {
+	width: 750px;
+	-moz-box-flex: 5; 
+    -webkit-box-flex: 5; 
+    box-flex: 5;
+}
+
+.project img {
+	width: 115px;
+	height: 115px;
+}
+
+.project-box p {
+	font-size: 15px;
+}
 
 .project ul li {
 	border: 3px solid black;
 	margin: 10px 10px 10px 0;
     background-size: 100% 100%;
     text-align: left;
-    line-height: 50px; 
     border-radius:20px;
 }
 
 .project ul li a {
 	padding: 10px;
-    height: 55px;
     display: block;
     font-size: 20px;
     text-decoration: none;
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 15px;
 }
 
 .project ul li a:hover {
@@ -283,7 +292,7 @@ li {
 	text-align: left;
 }
 
-.learnningTitle {
+.learnning-title {
 	color: #5B5B5B;
 	font-size: 36px;
 }
@@ -303,7 +312,7 @@ li {
     display: block;
     font-size: 20px;
     text-decoration: none;
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 15px;
 }
 
 .learnning ul li a:hover {
@@ -318,12 +327,12 @@ li {
 	text-align: left;
 }
 
-.blogTitle {
+.blog-title {
 	color: #5B5B5B;
 	font-size: 36px;
 }
 
-.blogDes {
+.blog-des {
 	font-size: 18px;
 	color: black;
 }
@@ -343,7 +352,7 @@ li {
     display: block;
     font-size: 20px;
     text-decoration: none;
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 15px;
 }
 
 .blog ul li a:hover {
@@ -358,7 +367,7 @@ li {
 	text-align: left;
 }
 
-.shareTitle {
+.share-title {
 	color: #5B5B5B;
 	font-size: 36px;
 }
@@ -378,7 +387,7 @@ li {
     display: block;
     font-size: 20px;
     text-decoration: none;
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 15px;
 }
 
 .share ul li a:hover {
@@ -391,4 +400,60 @@ li {
 .about {
 	width: 900px;
 	text-align: left;
+}
+
+.about h2 {
+	margin-top: 20px;
+	color: #898989;
+}
+
+.about-title {
+	color: #5B5B5B;
+	font-size: 36px;
+}
+
+.about-des {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	width: 700px;
+	margin-top: 20px;
+}
+
+.about .project-list {
+	margin-top: 10px;
+}
+
+.about .project-list .item li{
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+
+.project-list font{
+	font-family: "微软雅黑";
+	color: #8c4600;
+}
+
+.project-item {
+	width: 700px;
+	font-size: 18px;
+}
+
+.self-info-list {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.self-info-list li {
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.self-info-list li:first-child {
+	margin-left: 0px;
+}
+
+.self-info-item {
+	color: rgb(175, 128, 80);
 }
